@@ -1,4 +1,4 @@
-(ns linked-list)
+(ns domain.linked-list)
 
 (defn- create-node [value next] {:value value :next next})
 

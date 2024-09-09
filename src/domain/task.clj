@@ -1,4 +1,4 @@
-(ns task (:require [linked-list :as ll] [utils]))
+(ns domain.task (:require [domain.linked-list :as ll] [domain.utils :as utils]))
 
 (defn- calculate-length [& elements] (ll/List_Length (apply ll/Cons elements)))
 
