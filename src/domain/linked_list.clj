@@ -5,7 +5,7 @@
 (defn- build-list [elements]
   (if (empty? elements)
     nil
-    (create-node (first elements) (build-list (rest elements))))) ;
+    (create-node (first elements) (build-list (rest elements)))))
 
 (defn Cons [head & tail]
   (create-node head (build-list tail)))
@@ -14,7 +14,6 @@
   (if (nil? linked-list)
     nil
     (:value linked-list)))
-
 
 (defn Select_Tail [linked-list]
   (if (nil? linked-list)

@@ -4,5 +4,8 @@
         ring/ring-jetty-adapter {:mvn/version "1.9.5"}
         compojure/compojure {:mvn/version "1.6.2"}
         cheshire/cheshire {:mvn/version "5.10.1"}
-        ring/ring-defaults {:mvn/version "0.3.3"}}
+        ring/ring-defaults {:mvn/version "0.3.3"}
+       ;;  metosin/ring-cors {:mvn/version "0.1.13"}
+        }
+
  :aliases {:run {:main-opts ["-m" "core"]}}}
